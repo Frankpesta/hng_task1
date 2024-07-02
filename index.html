@@ -3,8 +3,13 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>My Tech Goals</title>
+		<title>HNG Task1</title>
 		<link rel="stylesheet" href="./styles/index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet" />
 	</head>
 	<body>
 		<header>
@@ -13,25 +18,37 @@
 		<main>
 			<section id="profile">
 				<img
-					src="profile.jpg"
+					src="./images/profile2.JPG"
 					alt="Slack Profile Picture"
 					data-testid="slackProfilePicture" />
-				<p data-testid="slackDisplayName">Slack Display Name: Your Name</p>
-				<p data-testid="slackEmail">Slack Email: your-email@example.com</p>
-			</section>
-			<section id="time">
-				<p data-testid="currentTimeUTC">
-					Current Time (UTC): <span id="time"></span>
+				<p data-testid="slackDisplayName">
+					Slack Display Name: <span class="emphasis">@Pesta</span>
 				</p>
-				<p data-testid="currentDay">Current Day: <span id="day"></span></p>
+				<p data-testid="slackEmail">
+					Slack Email:
+					<span class="emphasis">franklinolisaemeka3@gmail.com</span>
+				</p>
+			</section>
+			<section id="date">
+				<h3>Day and Time</h3>
+				<p data-testid="currentTimeUTC">
+					Current Time (UTC): <span class="emphasis" id="time"></span>
+				</p>
+				<p data-testid="currentDay">
+					Current Day: <span class="emphasis" id="day"></span>
+				</p>
 			</section>
 			<section id="goals">
 				<h2>Goals</h2>
 				<ul>
-					<li>Goal 1: Description of goal 1</li>
-					<li>Goal 2: Description of goal 2</li>
-					<li>Goal 3: Description of goal 3</li>
-					<!-- Add more goals as needed -->
+					<li>Develop my skills to make myself more employable</li>
+					<li>
+						Learn new programming languages outside of Javascript and Typescript
+						and go into Mobile Development
+					</li>
+					<li>Land a remote job as a Frontend Developer.</li>
+					<li>Create an avenue for helping newbies in Tech.</li>
+					<li>Create a mentorship program to help people grow in tech.</li>
 				</ul>
 			</section>
 			<section id="links">
