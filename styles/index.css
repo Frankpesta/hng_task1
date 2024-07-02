@@ -1,0 +1,124 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+img {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+/* Overall page style */
+body {
+	font-family: "Arial", sans-serif;
+	line-height: 1.6;
+	background: #f4f4f9;
+	color: #333;
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Header styling */
+header {
+	text-align: center;
+	padding: 20px;
+	background-color: #3f51b5;
+	color: white;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+/* Main content styling */
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+/* Profile section styling */
+#profile {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#profile img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	border: 2px solid #3f51b5;
+}
+
+/* Time section styling */
+#time {
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+/* Goals section styling */
+#goals {
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#goals h2 {
+	color: #3f51b5;
+	margin-bottom: 10px;
+}
+
+#goals ul {
+	padding-left: 20px;
+}
+
+#goals li {
+	margin-bottom: 10px;
+}
+
+/* Links section styling */
+#links {
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#links h2 {
+	color: #3f51b5;
+	margin-bottom: 10px;
+}
+
+#links ul {
+	padding-left: 20px;
+}
+
+#links a {
+	color: #3f51b5;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+#links a:hover {
+	color: #303f9f;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+	#profile {
+		flex-direction: column;
+		text-align: center;
+	}
+}
